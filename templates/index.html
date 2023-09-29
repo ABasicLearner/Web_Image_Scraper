@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Search</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Image Search</h1>
+    <form method="POST" action="/search">
+        <label for="query">Enter Your Search:</label>
+        <input type="text" name="query" id="query">
+        <label for="num_images">Number of Images:</label>
+        <input type="number" name="num_images" id="num_images">
+        <Button type="submit">Search</button>
+    </form>
+</body>
+</html>
