@@ -1,4 +1,4 @@
-# Image Search and Download Web Application
+# Image Search and Download (Web Application)
 
 ## Objective
 The Image Search and Download web application is designed to provide users with a simple and intuitive platform for searching and downloading images. Built with a user-friendly interface, this application streamlines the process of finding and saving images based on specific search queries.
